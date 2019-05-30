@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block conteudo %}
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/atendimento/paciente/">Cliente</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/atendimento/medico/">Medico</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Agendamento</a>
+                </li>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#">l</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Consulta</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1 class="display-4">Oi, Tudo bem ?</h1>
+        <p class="lead">Seja bem-vindo aoeerfewf sistema de gestão de atendimentos clinicos.</p>
+        <hr class="my-4">
+        <p>Conheça abaixo as opções do sistema.</p>
+    </div>
+    <div class="row">
+        <article class="col-lg-3">
+            <div class="card" style="width: 18rem;">
+                <img src="http://climate.gov.ph/images/knowledge/no-image-icon-6.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Cliente</h5>
+                    <p class="card-text">Gerencie o cadastro dos clientes da sua clinica</p>
+                    <a href="#" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-3">
+            <div class="card" style="width: 18rem;">
+                <img src="http://climate.gov.ph/images/knowledge/no-image-icon-6.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Medico</h5>
+                    <p class="card-text">Gerencie os profissionais que atendem na sua clinica</p>
+                    <a href="#" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-3">
+            <div class="card" style="width: 18rem;">
+                <img src="http://climate.gov.ph/images/knowledge/no-image-icon-6.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Agendamento</h5>
+                    <p class="card-text">Agende consultas com os medicos de acordo com a escala.</p>
+                    <a href="#" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-3">
+            <div class="card" style="width: 18rem;">
+                <img src="http://climate.gov.ph/images/knowledge/no-image-icon-6.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Consultas</h5>
+                    <p class="card-text">Os medicos podem atender os pacientes e registra o atendimento.</p>
+                    <a href="#" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </article>
+{% endblock %}
